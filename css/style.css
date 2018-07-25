@@ -1,7 +1,8 @@
 body {
   background-color: #ffff;
   color: #;
-  font-size: 16px
+  font-size: 16px;
+  line-height:1.5
 }
 
 h1 {
@@ -61,7 +62,11 @@ li {
 
 .textLink {
   text-decoration: none;
-  color:white
+  color:white;
+}
+/* mouse over link*/
+a:hover {
+  color:purple
 }
 
 article {
@@ -72,3 +77,4 @@ article {
   margin: 0 auto;
   width: 50%;
 }
+
